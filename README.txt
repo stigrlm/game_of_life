@@ -11,10 +11,10 @@ toroid (donut-like) object.
 Classes implemented:
 InputHandler - handles command lines input to the script
 Game - game instance configures world and controls run of the game
-World - contains cells in numpy array and have methods that evaluate each round
+World - contains cells in numpy array and has methods that evaluate each round
 Cell - simple class that holds info whether cell is alive or dead
 
-Game can be run using run_game.py script, with option to specify 3 input paramters:
+Game can be run using run_game.py script, with option to specify 4 input paramters:
 --world_size      how many cells will be on each side (between 10-50, default 30)
 
 --live_density    proportion of alive cells at the beginning (between 0-1. default 0.5)
